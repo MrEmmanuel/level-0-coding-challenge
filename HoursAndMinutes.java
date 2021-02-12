@@ -1,6 +1,5 @@
 //Task 0.8
 
-//This class implement a method that convert a number into hours and minutes
 public class HoursAndMinutes {
 
 	public static void main(String[] args) {
@@ -21,15 +20,13 @@ public class HoursAndMinutes {
 		int minutes;
 		int number = num;
 		if(number < 0){
-			System.out.println("Invalid number");   //print Invalid if a number given is below zero
+			System.out.println("Invalid number");  
 		}else {
-		
 			if(number < 60 ) {
 				hours = 0;
 				minutes = number;
 				
 			}else {
-			
 				hours = number / 60;         //convert number to hours
 				minutes = number%60;		//convert number to minutes 
 			}
