@@ -1,13 +1,12 @@
 //Task 0.7
 
-//This class implement  two methods that 1. convert temperature from celsius to fahrenheit and 2. convert temperature from fahrenheit to celsius
 public class ConvertTemperature {
 
 	public static void main(String[] args) {
 		
-			System.out.println(celsiusToFahrenheit(32) + "°F");
+			System.out.println(celsiusToFahrenheit(32) + "Â°F");
 			
-			System.out.println(fahrenheitToCelsius(74) + "°C");
+			System.out.println(fahrenheitToCelsius(74) + "Â°C");
 
 	}
 	
@@ -17,7 +16,7 @@ public class ConvertTemperature {
 		int celsius = cel;
 		int fahrenheit = 0;
 		
-		fahrenheit = (celsius * (9/5)) + 32;  //calculate the temperature in fahrenheit
+		fahrenheit = (celsius * (9/5)) + 32;  
 		
 		
 		return fahrenheit;
@@ -30,7 +29,7 @@ public class ConvertTemperature {
 		//double celsius = 0;
 		int fahrenheit = fah;
 		
-		double celsius = ((fahrenheit) - 32) * (0.55555555556);    //calculate the temperature in celsius 
+		double celsius = ((fahrenheit) - 32) * (0.55555555556);    
 		
 		
 		return (int)celsius;
