@@ -33,7 +33,7 @@ public class MaximumNumber {
             	}
             }
             
-        }else{     //check the maximum between the first two numbers, then use the max to find the maximum between max and the third number.. and eventually the fourth number
+        }else{ 
             if(b>c){
             	if(b>d){
             		max = b;
@@ -43,7 +43,7 @@ public class MaximumNumber {
             	}
             }
             else{
-            	if(c>d){            //involve the fourth number
+            	if(c>d){        
             		
             		max = c;
             	}
