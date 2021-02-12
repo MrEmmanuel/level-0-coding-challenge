@@ -1,7 +1,6 @@
 //Task 0.4
 
 
-//This Class implement a method that check if a number is even or odd
 public class EvenOrOdd {
     public static void main(String[] args){
 
