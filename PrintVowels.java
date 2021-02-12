@@ -2,13 +2,12 @@
 
 import java.util.ArrayList;
 
-//This class implements a method that prints out all the vowels in a word
 public class PrintVowels {
 
 	public static void main(String[] args) {
 		
 		
-		vowels("Computer");   //test the method
+		vowels("Computer");   
 
 	}
 	
@@ -26,21 +25,17 @@ public class PrintVowels {
 		vowels.add("o");
 		vowels.add("u");
 		
-		
-		
 		for(int i = 0; i < word.length(); i++) {
 			
-			if(vowels.contains(word.substring(i, i+1)) && !vowelString.contains(word.substring(i, i+1))){   //check which vowels are in the string
+			if(vowels.contains(word.substring(i, i+1)) && !vowelString.contains(word.substring(i, i+1))){   
 				
 				vowelString.add(word.substring(i, i+1));
 			}
-			
 		}
-		
 		if(vowelString.size() !=0){
 			if(vowelString.size() >1){
 				
-				System.out.print("Vowels found: " + vowelString.get(0).toString());          //Print out the output
+				System.out.print("Vowels found: " + vowelString.get(0).toString()); 
 				
 				for(int x=1; x<vowelString.size(); x++) {
 			
@@ -53,7 +48,7 @@ public class PrintVowels {
 		System.out.println();	
 		}
 		else {
-			System.out.println("Vowels found: No vowel found");   //No vowels were found 
+			System.out.println("Vowels found: No vowel found");
 		}
 	}
 }
