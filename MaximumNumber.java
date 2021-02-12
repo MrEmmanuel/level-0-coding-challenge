@@ -1,6 +1,5 @@
 //Task 0.6
 
-//Class implement a method that finds a maximum number in a list of numbers
 public class MaximumNumber {
     public static void main(String[] args){
 
@@ -8,7 +7,7 @@ public class MaximumNumber {
 
     }
     
-    //This method find the maximum number  most a list of numbers
+    //This method find the maximum number  amongst a list of numbers
     public static int maximum(int a, int b, int c, int d){
 
         //5,3,4
@@ -26,7 +25,7 @@ public class MaximumNumber {
             	}
             }
             else{
-            	if(c>d) {      //involve the fourth number
+            	if(c>d) {    
             		max = c;
             	}
             	else {
