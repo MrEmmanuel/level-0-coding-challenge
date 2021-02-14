@@ -1,7 +1,7 @@
 //Task 0.5
 
 
-public class Triangle {
+public class Task5 {
 
     public static void main(String[] args){
 
