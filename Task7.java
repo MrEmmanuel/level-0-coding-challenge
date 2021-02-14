@@ -1,6 +1,6 @@
 //Task 0.7
 
-public class ConvertTemperature {
+public class Task7 {
 
 	public static void main(String[] args) {
 		
@@ -14,23 +14,19 @@ public class ConvertTemperature {
 	public static int celsiusToFahrenheit(int cel) {
 		
 		int celsius = cel;
-		int fahrenheit = 0;
+		double fahrenheit = 0;
 		
-		fahrenheit = (celsius * (9/5)) + 32;  
+		fahrenheit = (celsius *(1.8)) + 32;
 		
-		
-		return fahrenheit;
+		return (int) (fahrenheit);
 	}
-	
 	
 	//This method convert the temperature from fahrenheit to celsius 
 	public static int fahrenheitToCelsius(int fah) {
 		
-		//double celsius = 0;
 		int fahrenheit = fah;
 		
 		double celsius = ((fahrenheit) - 32) * (0.55555555556);    
-		
 		
 		return (int)celsius;
 	}
