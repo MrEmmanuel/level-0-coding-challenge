@@ -1,7 +1,7 @@
 //Task 0.4
 
 
-public class EvenOrOdd {
+public class Task4 {
     public static void main(String[] args){
 
         //Test the method
