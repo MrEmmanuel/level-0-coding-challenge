@@ -2,7 +2,7 @@
 
 
 //This method implement a method that greet Tshepo
-public class Hello {
+public class Task3 {
 
     public static void main(String[] args){
         hello("Tshepo");
