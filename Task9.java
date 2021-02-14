@@ -2,12 +2,14 @@
 
 import java.util.ArrayList;
 
-public class PrintVowels {
+
+public class Task9 {
 
 	public static void main(String[] args) {
 		
 		
-		vowels("Computer");   
+		vowels("COmputer");
+		vowels("aaaaa");
 
 	}
 	
@@ -27,23 +29,24 @@ public class PrintVowels {
 		
 		for(int i = 0; i < word.length(); i++) {
 			
-			if(vowels.contains(word.substring(i, i+1)) && !vowelString.contains(word.substring(i, i+1))){   
+			if(vowels.contains(word.substring(i, i+1))){
 				
 				vowelString.add(word.substring(i, i+1));
 			}
 		}
+		
 		if(vowelString.size() !=0){
 			if(vowelString.size() >1){
 				
-				System.out.print("Vowels found: " + vowelString.get(0).toString()); 
+				System.out.print("Vowels found: " + vowelString.get(0));
 				
 				for(int x=1; x<vowelString.size(); x++) {
 			
-					System.out.print(", "+ vowelString.get(x).toString());
+					System.out.print(", "+ vowelString.get(x));
 				}
 			}
 			else {
-				System.out.println("Vowel found: " + vowelString.get(0).toString());
+				System.out.println("Vowel found: " + vowelString.get(0));
 			}
 		System.out.println();	
 		}
