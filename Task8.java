@@ -1,5 +1,3 @@
-//Task 0.8
-
 public class Task8 {
 
 	public static void main(String[] args) {
@@ -14,17 +12,13 @@ public class Task8 {
 		hoursAndMinutes(2);
 		hoursAndMinutes(-2);
 	}
-	
-	//This method convert a number into hours and minutes, handling both singular and plurals for hours and minutes
 	public static void hoursAndMinutes(int num) {
-		
 		int hours;
 		int minutes;
 		int number = num;
 		if(number < 0){
 			System.out.println("Invalid number");   
 		}else {
-		
 			if(number < 60 ) {
 				hours = 0;
 				minutes = number;
@@ -48,13 +42,11 @@ public class Task8 {
 				}
 				
 			}else if(hours <= 1 && minutes > 1) {
-				
 				if(	hours == 0) {
 					System.out.println(number + " is "+ hours+ " hours, "+ minutes + " minutes");
 				}else {
 					System.out.println(number + " is "+ hours+ " hour, "+ minutes + " minutes");
 				}
-				
 			}else if(hours > 1 && minutes <= 1) {
 				
 				if(	minutes == 0) {
@@ -62,7 +54,6 @@ public class Task8 {
 				}else {
 					System.out.println(number + " is "+ hours+ " hours, "+ minutes + " minute");
 				}
-				
 			}else{
 				System.out.println(number + " is "+ hours+ " hours, "+ minutes + " minutes");
 			}
