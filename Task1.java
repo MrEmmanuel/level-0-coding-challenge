@@ -1,6 +1,3 @@
-//Task 0.1
-
-//This class print out changing values of x and y at different stages
 public class Task1 {
 
     public static void main(String[] args ){
