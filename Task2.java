@@ -1,8 +1,4 @@
-//Task 0.2
-
-//Class to test the BODMAS rule
 public class Task2 {
-
     public static void main(String[] args){
 
         int x, y, z, a, b;
