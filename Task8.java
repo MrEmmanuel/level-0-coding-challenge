@@ -28,7 +28,10 @@ public class Task8 {
 				hours = number / 60;         
 				minutes = number%60; 
 			}
-			if(hours <= 1) {	
+			
+			if(hours == 0 && minutes == 0) {
+				zeroHourZeroMinute(minutes, hours, number);
+			}else if(hours <= 1) {
 				if(minutes <= 1) {
 					checkLessThanMinute(minutes, hours, number);
 				}else {
